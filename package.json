@@ -1,0 +1,20 @@
+{
+  "name": "chat-example",
+  "version": "0.0.1",
+  "description": "my first chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Real Programmers don't need tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bnoordhuis/chat-example.git"
+  },
+  "keywords": [
+    "chat",
+    "chat",
+    "chat"
+  ],
+  "author": "Ben Noordhuis <info@bnoordhuis.nl>",
+  "license": "ISC"
+}
