@@ -4,5 +4,8 @@
   "description": "how to use my first chat app",
   "main": "run.js",
   "author": "Ben Noordhuis <info@bnoordhuis.nl>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chat-example": "0.0.1"
+  }
 }
