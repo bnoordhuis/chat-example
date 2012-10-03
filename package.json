@@ -1,0 +1,8 @@
+{
+  "name": "usage-example",
+  "version": "0.0.1",
+  "description": "how to use my first chat app",
+  "main": "run.js",
+  "author": "Ben Noordhuis <info@bnoordhuis.nl>",
+  "license": "ISC"
+}
