@@ -23,7 +23,8 @@ var connections = [];
 
 function start(port) {
   net.createServer(port, on_connection).listen(port);
-  var address = os.networkInterfaces()['wlan0'][0].address;
+  var addresses = os.networkInterfaces()['wlan0'];
+  var address = addresses && addresses[0].address || '0.0.0.0';
   console.log('Connect with: netcat %s %d', address, port);
 }
 
